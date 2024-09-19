@@ -3,7 +3,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'node-8.1.3'
+        nodejs 'node-18.19.1'
     }
     stages {
         stage('Build') {
